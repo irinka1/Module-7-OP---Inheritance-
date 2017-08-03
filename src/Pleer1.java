@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
+public class Pleer1 extends Playsong {
 
-public class Pleer1 {
+    final int price = 100;
+
+
+    public Pleer1(String songName) {
+        super(songName);
+    }
+
+    @Override
+    public void playSong(){
+        System.out.println("Playing: " + songName);
+    }
 }
