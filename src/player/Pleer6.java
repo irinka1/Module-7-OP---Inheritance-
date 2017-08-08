@@ -13,9 +13,8 @@ import java.util.Random;
 
 public class Pleer6 extends PlayAllSongs{
 
-    final int price = 300;
-    public Pleer6( String[] playlist) {
-        super(playlist);;
+    public Pleer6( String[] playlist, int price) {
+        super(playlist, price);;
     }
 
     @Override

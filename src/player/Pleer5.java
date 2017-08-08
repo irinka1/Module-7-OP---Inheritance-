@@ -10,11 +10,9 @@ import java.util.Arrays;
 
 public class Pleer5 extends PlayAllSongs{
 
-        final int price = 300;
 
-
-    public Pleer5( String[] playlist) {
-            super(playlist);;
+    public Pleer5( String[] playlist, int price) {
+            super(playlist, price);;
         }
 
         @Override

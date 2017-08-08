@@ -4,11 +4,9 @@ import java.util.Arrays;
 
 public class Pleer3 extends PlayAllSongs{
 
-    final int price = 300;
 
-
-    public Pleer3( String[] playlist) {
-        super(playlist);;
+    public Pleer3( String[] playlist, int price) {
+        super(playlist, price);;
     }
 
     @Override
