@@ -1,10 +1,11 @@
+package player;
+
 public class Pleer1 extends Playsong {
 
-    final int price = 100;
 
+    public Pleer1(String songName, int price) {
+        super(songName, price);
 
-    public Pleer1(String songName) {
-        super(songName);
     }
 
     @Override

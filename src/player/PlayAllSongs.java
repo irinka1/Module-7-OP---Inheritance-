@@ -1,11 +1,12 @@
+package player;
+
 public class PlayAllSongs {
 
     String songName;
 
-    String[] playlist = new String[] {"The best song", "Good song", "Super Song"};
+    String[] playlist;
 
-    public PlayAllSongs(String songName, String[] playlist) {
-        this.songName = songName;
+    public PlayAllSongs(String[] playlist) {
         this.playlist =  playlist;
 
     }
