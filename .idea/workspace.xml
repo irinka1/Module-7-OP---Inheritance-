@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a79c8db4-6f34-4cbe-ab7e-230e6ee4002d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MAIN.java" afterPath="$PROJECT_DIR$/src/MAIN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/PlayAllSongs.java" afterPath="$PROJECT_DIR$/src/player/PlayAllSongs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/Pleer3.java" afterPath="$PROJECT_DIR$/src/player/Pleer3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/Pleer4.java" afterPath="$PROJECT_DIR$/src/player/Pleer4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/Pleer5.java" afterPath="$PROJECT_DIR$/src/player/Pleer5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/Pleer6.java" afterPath="$PROJECT_DIR$/src/player/Pleer6.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +30,8 @@
       <file leaf-file-name="MAIN.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MAIN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -410,17 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/Playsong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/PlayAllSongs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -484,10 +468,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/Playsong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MAIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

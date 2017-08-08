@@ -13,8 +13,7 @@ public class MAIN {
 
 
 
-      Playsong pleer = new Playsong("sdf", 100);
-
+      Playsong pleer = new Playsong("Песенка 1", 100);
       int a = pleer.getPrice();
 
        pleer1.playSong();
