@@ -16,7 +16,7 @@ public class Pleer3 extends PlayAllSongs{
 
 
     public void playAllsong(){
-        System.out.println("Проигрываются все песни: " + Arrays.asList(playlist));
+        System.out.println("playing all songs: " + Arrays.asList(playlist));
     }
 
 }
