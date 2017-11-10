@@ -1,9 +1,9 @@
 /*Плеер 6.
-Имеет final цену(задается в конструкторе) и геттер
-Имеет плейлист
-playSong Может проиграть первую песню
-playAllSongs может проиграть все песни
-Имеет метод public void shuffle() - перемешивает все песни в плейлисте местами
+Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the first song
+playAllSongs can play all songs
+Has a method public void shuffle () - mixes all songs in the playlist in places
 */
 
 package player;
@@ -24,7 +24,7 @@ public class Pleer6 extends PlayAllSongs{
 
     public void playAllsong(){
 
-        System.out.println("Проигрываются все песни: " + Arrays.asList(playlist));
+        System.out.println("Playing all sings: " + Arrays.asList(playlist));
     }
     public void shuffle(){
         Random rnd = new Random();
@@ -34,7 +34,7 @@ public class Pleer6 extends PlayAllSongs{
             playlist[i] = playlist[j];
             playlist[j] = temp;
 
-            System.out.println("Все песни перемешались: " + Arrays.asList(playlist));
+            System.out.println("All sings are mixed: " + Arrays.asList(playlist));
         }
     }
 
