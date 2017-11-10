@@ -1,0 +1,50 @@
+Exercise 1
+
+There are various MP3 players. Each of them is somewhat different from the other. In the task, let's consider several types of players, from cheap to expensive. The essence of the task is to create classes that will describe all these players. In the main class of the program, you need to create objects of each class and demonstrate their work.
+Players work with the concept of "song" and "playlist."
+The song will be considered as a string, which consists of the title of the song. For example, here's what one song looks like:
+String song1 = "The Best Song";
+Playing the song, the player should be output to the console - "Playing:" + songName;
+For example, this conclusion should be obtained when playing the song "The best song": Playing: The best song
+The method logic code should not be duplicated in classes!
+Players can not have more features than indicated!
+Each new player == a new class
+Each player has a method public void playSong
+Loses the first available song on the player.
+Some players have a method public void playAllSongs ()
+Plays all the songs on the player
+
+Player 1.
+Has a final price (specified in the designer) and a getter
+Has only 1 song (you can not declare this variable in the class of this player)
+playSong Can play the song.
+
+Player 2.
+Has a final price (specified in the designer) and a getter
+Has only 1 song (you can not declare this variable in the class of this player)
+playSong Trying to play a song gives an error to the console - "error"
+ 
+Player 3.
+Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the first song
+playAllSongs can play all songs
+
+Player 4.
+Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the last song
+playAllSongs can play all songs
+
+Player 5.
+Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the first song
+playAllSongs can play all songs from the end of the playlist to the beginning
+
+Player 6.
+Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the first song
+playAllSongs can play all songs
+Has a method public void shuffle () - mixes all songs in the playlist in places
