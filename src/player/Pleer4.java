@@ -1,7 +1,7 @@
-/*Имеет final цену(задается в конструкторе) и геттер
-Имеет плейлист
-playSong Может проиграть последнюю песню
-playAllSongs может проиграть все песни
+/*Has a final price (specified in the designer) and a getter
+Has a playlist
+playSong Can play the last song
+playAllSongs can play all songs
 */
 
 package player;
@@ -21,7 +21,7 @@ public class Pleer4 extends PlayAllSongs{
 
 
     public void playAllsong(){
-        System.out.println("Проигрываются все песни: " + Arrays.asList(playlist));
+        System.out.println("All songs are playing: " + Arrays.asList(playlist));
     }
 
 }
